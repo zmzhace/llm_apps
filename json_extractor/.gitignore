@@ -1,0 +1,91 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+# React build
+/frontend/build
+/frontend/dist
+/frontend/coverage
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+/backend/.pytest_cache/
+/backend/.coverage
+/backend/htmlcov/
+/backend/.tox/
+/backend/.nox/
+/backend/.hypothesis/
+/backend/.coverage.*
+/backend/coverage.xml
+/backend/*.cover
+/backend/.mypy_cache/
+/backend/.dmypy.json
+/backend/dmypy.json
+/backend/.pyre/
+/backend/.pytype/
+/backend/cypress/videos/
+/backend/cypress/screenshots/
+
+# Distribution
+/backend/dist/
+/backend/build/
+/backend/*.egg-info/
+
+# Local development
+/backend/.env.local
+/backend/.env.development.local
+/backend/.env.test.local
+/backend/.env.production.local 
